@@ -1,0 +1,30 @@
+@import 'node_modules/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+
+body {
+    background-image: url("http://d38zt8ehae1tnt.cloudfront.net/Cosmos_A_Spacetime_Odyssey__Episode_1_Standing_up_in_the_Milky_Way__168516.jpg?v=1468314436");
+    background-size: 100%;
+    text-align: center;
+
+    h1 {
+        color: blanchedalmond;
+        font-size: 5em;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-size: .8em;
+        color: black;
+        margin: 10px;
+    }
+
+    input {
+        width: 30%;
+        margin-top: 20px;
+        
+    }
+}
